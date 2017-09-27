@@ -29,6 +29,24 @@ overflow-wrap: break-word;
 background: lightblue;
 color: yellow;
 }
+.gradient{
+width: 300px;
+height: 300px;
+background-color: green;
+background: repeating-radial-gradient(rgba(255,255,255,0), blue 30%);
+background: -0-repeating-radial-gradient(rgba(255,255,255,0), blue 30%);
+border-width: 20%;
+border-style: solid;
+}
+
+.class{
+transition: height 2s, width 5s, transform 5s;
+}
+
+.class:hover{
+transform: rotate(900deg);
+background-color: purple;
+}
 
 {
 
